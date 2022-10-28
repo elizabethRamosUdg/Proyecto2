@@ -1,10 +1,34 @@
 import React, { Component } from 'react';
+import Product from '../components/Product/Product';
 
 function Catalog() {
   return (
-      <div className="containerActividades">
-          <h1>Catalog page</h1>
-      </div>
+    <div className="catalogcontainer">
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+    </div>
   );
 }
 

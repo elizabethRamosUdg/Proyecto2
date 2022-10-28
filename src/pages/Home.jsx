@@ -1,13 +1,13 @@
 import React from 'react';
 import "../pages/style/home.css";
+import logo from '../../src/images/genericLogo.png'; // with import
 
 function Home() {
     return (
     <div className="containerHome">
-        <h1>Home Page</h1>
+        <img alt="logoBig" className="logoBig" src={logo} />
     </div>
     );
 }
 
 export default Home;
-
